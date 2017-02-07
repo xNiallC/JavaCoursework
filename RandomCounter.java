@@ -1,6 +1,6 @@
 /*
- * Name: 
- * Student number: 
+ * Name: Niall Curtis
+ * Student number: C1623580
  */
 
 //RandomCounter.java
@@ -11,19 +11,20 @@
 //Sum of the 10 random numbers is 707
 
 
+
 public class RandomCounter {
 
     public static void main(String[] args) {
 
         int randomCount = 0;
         
-        for(int i = 0; i < ; ++i) {
-            int randNum = Math.random();
+        for(int i = 0; i < 10; ++i) {
+            int randNum = (int)(Math.random()*100);
             System.out.print(randNum + " ");
             randomCount += randNum;
         }
     
-        System.out.println("Sum of the 10 random numbers is" + randomNum);
+        System.out.println("\n\nSum of the 10 random numbers is " + randomCount);
 
     }    
 }
