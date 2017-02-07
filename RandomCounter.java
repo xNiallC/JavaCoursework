@@ -19,8 +19,15 @@ public class RandomCounter {
         int randomCount = 0;
         
         for(int i = 0; i < 10; ++i) {
+
+        	// Random number is by default, not an int. The additional parameters make it a round integer between 1 and 100.
+
             int randNum = (int)(Math.random()*100);
+
             System.out.print(randNum + " ");
+
+            // Add each random number to the randomCount variable.
+
             randomCount += randNum;
         }
     
