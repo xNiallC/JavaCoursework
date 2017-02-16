@@ -2,13 +2,12 @@
  * Name: Niall Curtis
  * Student number: C1623580
  */
-import java.util.Scanner;
 
 public class Palindrome {
     public static void main(String[] args) {
-    	Scanner input = new Scanner(System.in);
+    	NameInput input = new NameInput();
     	System.out.println("Enter Word:");
-    	String str = input.nextLine();
+    	String str = input.getString();
     	str = str.toLowerCase();
     	// Changes String to all lowercase so it matches reverse and backwards
     	
