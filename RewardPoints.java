@@ -16,22 +16,22 @@ public class RewardPoints {
     	// Also assumed that each band of points is from the bottom, to just below the upper threshold.
 
     	if (0 < money && money < 100) {
-    		System.out.print("100 points.");
+    		System.out.print("100 points.\n");
     	}
     	else if (100 <= money && money < 250) {
-    		System.out.print("250 points.");
+    		System.out.print("250 points.\n");
     	}
     	else if (250 <= money && money < 500) {
-    		System.out.print("500 points.");
+    		System.out.print("500 points.\n");
     	}
     	else if (500 <= money && money < 1000) {
-    		System.out.print("1000 points.");
+    		System.out.print("1000 points.\n");
     	}
     	else if (1000 <= money) {
-    		System.out.print("1500 points.");
+    		System.out.print("1500 points.\n");
     	}
     	else {
-    		System.out.print("0 points.");
+    		System.out.print("0 points.\n");
     	}
     }
 }
