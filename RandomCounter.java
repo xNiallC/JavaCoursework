@@ -22,7 +22,7 @@ public class RandomCounter {
 
         	// Random number is by default, not an int. The additional parameters make it a round integer between 1 and 100.
 
-            int randNum = (int)(Math.random()*100);
+            int randNum = (int)(Math.random()*101);
 
             System.out.print(randNum + " ");
 
